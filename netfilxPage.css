@@ -64,6 +64,7 @@ body{
     height: 92vh;
     width: 100vw;
     overflow-y:scroll;
+    overflow-x:hidden;
 }
 
 .content{
@@ -78,7 +79,7 @@ body{
     margin-left: 5vw;
     height: 35vh;
     width: 93vw;
-    overflow-x:scroll;
+    overflow-x:hidden;
     overflow-y:hidden;
     display: flex;
     /* background-color: rgb(255, 255, 255); */
@@ -99,4 +100,72 @@ body{
 .movies:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.modal{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #131A28;
+}
+
+.close{
+    /* height: 5vh;
+    width: 2vw; */
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    /* background-color: beige; */
+    color: white;
+}
+
+.close:hover,.option:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.title{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder
+}
+
+.play-video{
+    margin-left:32vw;
+    margin-top: 15vh;
+    width:562px;
+    height:325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    
+}
+
+.modal1{
+    position: fixed;
+    top: 10%;
+    left: 90%;
+    /* height: 10vh; */
+    height: 5vh;
+    width: 8vw;
+    background-color:#000000;
+}
+
+.option{
+    height:5vh ;
+    width: 100%;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }

@@ -1,8 +1,6 @@
 body{
     margin: 0;
    overflow: hidden;
-   
-    
 }
 *{
     box-sizing: border-box;
@@ -39,7 +37,7 @@ body{
     font-size: large;
 }
 
-.sign-button:hover,.submit-button:hover{
+.sign-button:hover,.submit-button:hover,.close:hover{
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -93,7 +91,8 @@ body{
 }
 
  .signin-container{
-     position: fixed;
+    
+    position: fixed;
     height :70vh;
     width:26vw;
     top:15vh;
@@ -131,7 +130,7 @@ body{
     padding-left: 1vw;
 }
 
-.signin-button{
+.signin-button,.signup-button{
     height: 6vh;
      margin-top: 5vh;
     width: 70%;
@@ -146,10 +145,18 @@ body{
 
 }
 
-.signin-button:hover,.signup:hover{
+.signin-button:hover,.signup:hover,.signup-button:hover{
     cursor: pointer;
 }
-
+.close{
+    /* height: 5vh;
+    width: 2vw; */
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    /* background-color: beige; */
+    color: white;
+}
 .e,.p,.n{
     color: white;
     margin-left: 15%; 
